@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+
+header {
+  background-color: #1F2937;
+}
+
+[alt="logo"] {
+  width: 5rem;
+  padding: 8px 1em;
+}
+
+nav,
+header div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding: 0 1em;
+}
+
+a {
+  color: #E5E7EB;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header button {
+  height: max-content;
+  width: max-content;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3882F6;
+  color: white;
+  font-size: 1em;
+  font-weight: 700
+}
+
+header div {
+  display: flex;
+  flex: 1;
+}
+
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  color: #F9FAF8;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+header p {
+  font-size: 18px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+}
+
+header img {
+  max-width: 50%;
+  height: auto;
+  padding: 4em 1em;
+}
+
+/* new releases */
+
+.new {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 6em;
+}
+
+.images {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.images img {
+  border: 8px solid #e41318;
+}
+
+h5 p {
+  color: black;
+  font-size: smaller;
+}
+
+h5{
+  padding-left: 16px;
+  margin-top: 8px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  padding: 1em;
+}
+
+/* quotes */
+
+
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  padding: 8em;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 60%;
+}
+
+q {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quotes div {
+  align-self: flex-end;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* buy */
+
+.buy {
+  background-color: #3882F6;
+  max-width: 60%;
+  margin: 5em auto;
+  display: flex;
+  padding: 4rem 8rem;
+  justify-content: space-between;
+  border-radius: 1em;
+}
+
+.buy button {
+  color: #fff;
+  font-family: 'Roboto', arial;
+  border: solid;
+  border-color: #fff;
+  border-radius: 8px;
+  background-color: #3882F6;
+  padding: 4px 24px;
+  font-size: 16px;
+}
+
+.left p {
+  color: #E5E7EB;
+  font-size: 16px;
+  padding-top: 0.5em;
+}
+
+h3 {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+/* footer */
+
+footer {
+  height: 6rem;
+  display: flex;
+  background-color: #1F2937;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
